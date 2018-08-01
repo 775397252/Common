@@ -1,0 +1,19 @@
+{
+    "name": "rufo/common",
+    "authors": [
+        {
+            "name": "rufo-zhang",
+            "email": "775397252@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "overtrue/http": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Common\\": "src/"
+        }
+    }
+}
